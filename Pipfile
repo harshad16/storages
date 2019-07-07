@@ -6,11 +6,11 @@ name = "pypi"
 [packages]
 voluptuous = "*"
 "boto3" = "*"
-thoth-common = "*"
 amun = "*"
 pydgraph = "*"
 python-dateutil = "*"
-thoth-python = "*"
+thoth-common = {git = "https://github.com/harshad16/common.git",ref = "update/build-analyser"}
+thoth-python = {git = "https://github.com/harshad16/python.git",ref = "wip"}
 
 [dev-packages]
 pytest = "*"
